@@ -82,7 +82,9 @@ RUN cpanm Test::Most \
  Spreadsheet::ParseExcel \
  XML::Parser::PerlSAX \
  XML::SAX::Writer \
- XML::Twig XML::Writer
+ XML::Twig XML::Writer \
+ XML::Simple \
+ Bio::DB::EUtilities
 
 RUN apt-get install -y \
  libxml-libxml-perl \
